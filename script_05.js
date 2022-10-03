@@ -7,8 +7,8 @@ const findSupPrime = (n) => {
 }
 
 const isPrime = (n, p = 2) => {
-  if(n == 2){
-      return true
+  if(n == 1){
+      return false
   }else if(p * p > n){
       return true
   }else if(n % p == 0){

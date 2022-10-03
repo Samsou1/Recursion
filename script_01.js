@@ -9,8 +9,7 @@ const computeFactorialIt = (n) => {
 const computeFactorialRec = (n) =>{
     if(n==0){
         return 1;
-    }
-    else{
+    }else{
         return n * computeFactorialRec(n-1);
     }
 }

@@ -1,10 +1,10 @@
 const isPrimeNumber = (n, p = 2) => {
     if(n == 1){
-        return false
+        return false;
     }else if(p * p > n){
-        return true
+        return true;
     }else if(n % p == 0){
-        return false
+        return false;
     }else{
         return isPrimeNumber(n, p + 1);
     }
